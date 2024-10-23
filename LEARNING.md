@@ -12,7 +12,14 @@ semantic html
 semantic tag--header, footer, main, form, table, nav
 non-semantic --div , span.
 text formating tags
-list 
+list
+order list
+unorder list
+nasted list
+defination list
+<dl>
+<dt>defenation title
+<dd>defination discription
 link
 form 
 deploy
