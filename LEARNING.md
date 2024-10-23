@@ -6,4 +6,13 @@ basic tag, styling, debuging
 tag, type of tag
 attribute
 element, content
-
+comment
+heading, paragraph, line breaks, hr rules 
+semantic html
+semantic tag--header, footer, main, form, table, nav
+non-semantic --div , span.
+text formating tags
+list 
+link
+form 
+deploy
