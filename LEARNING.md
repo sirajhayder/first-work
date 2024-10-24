@@ -20,6 +20,9 @@ defination list
 <dl>
 <dt>defenation title
 <dd>defination discription
-link
+link and navigation
+absolute and reletive link
+-a tag,attribute--href, target, title,
+
 form 
 deploy
