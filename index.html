@@ -9,20 +9,32 @@
   
   <!--section:nav-->
   <nav>
-    <a href="index.html">home</a>
-    <a href="contuct.html">contuct me</a>
-    <a href="about.html">about</a>
+    <ol>
+      
+      <li> <a href="#about me">about me</a></li>
+      <li> <a href="#contuct">contuct me</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#project">project</a></li>
+    
+    </ol>
+    
   </nav>
 
   <!--section:intro-->
-  <header>
+  <header id="intro">
     <h1>sirajul islam</h1>
-    <p>web devolopment learner</p>
+    <p></p> <em>web devolopment learner</em></p>
+    <a href="https://github.com/sirajhayder/first-work">
+      <img src="./photo-profile.jpg" alt="siraj" height="200">
+
+    </a>
+    
+   
     <hr/>
   </header>
 
   <!--section:about me-->
-  <section>
+  <section id="about me">
     <h2>About Me</h2>
     <p>
       <strong>Education:</strong>Hsc</p>
@@ -31,31 +43,37 @@
     </p>
     
   </section>
-
-  <!--section:skills-->
-
-  <section>
+    <!--section:skills-->
+    <section id="skills">
     <h2>Skills</h2>
-    <ol>
-      <li>html</li>
-      <li>css</li>
-      <li>
-        javascript
-        <ul>
-          <li>node.js</li>
-          <li>react.js</li>
-          <li>react.js</li>
-          <li>react.js</li>
-        </ul>
-      </li>
-      <li>MongoDB</li>
-      <li>Typescript</li>
-    </ol>
+    <table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+      <tr>
+        <th>technology</th>
+        <th>proficiancy</th>
+      </tr>
+    
+    </thead>
+    <tbody>
+      <tr>
+        <td>html</td>
+        <td>entry</td>
+      </tr>
+      <tr>
+        <td>css</td>
+        <td>entry</td>
+      </tr>
+      <tr>
+        <td>javascript</td>
+        <td>entry</td>
+      </tr>
+    </tbody>
+  </table>
   </section>
 
   <!--section:projects-->
 
-  <section>
+  <section id="project">
     <h2>Project</h2>
     <ol>
       <li><a target="_blank" href="https://github.com/sirajhayder/first-work">portfolio website</a></li>
@@ -71,6 +89,41 @@
 
 
   <!--section:contucs-->
+  <section id="contuct">
+    <h2>contuct me</h2>
+    <form>
+      <div><label for="name">name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+        <br>
+
+    <div> <label for="email">email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+      <br>
+
+    <div><label for="meassage">meassage:</label>
+        <textarea name="meassage" id="meassage" name="meassage" cols="20" rows="10"></textarea>
+    </div>
+        <br>
+
+      <button type="submit">submit</button>
+      <button type="reset">clear</button>
+
+
+
+      
+    </form>
+  </section>
+  
+  <!--section:footer-->
+  <footer>
+    <p>copyright reserved by &copy; sirajul islam</p>
+      <p>devolop with  &hearts;</p>
+    <a href="tel:01714780099">call me</a>
+    <a href="mailto:sirajulislamnur2023@gmail.com">email me</a>
+
+  </footer>
   
 </body>
 </html>
